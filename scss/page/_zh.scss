@@ -1,0 +1,35 @@
+.zh {
+  font-family: 'STSong', 'LiSong Pro', 'Songti SC', sans-serif;
+
+  .point em {
+    font-style: normal;
+  }
+
+  .description {
+    h1 {
+      font-size: $size-font-base-zh * 1.1;
+    }
+
+    .title {
+      font-size: $size-font-base-zh;
+      font-style: normal;
+    }
+
+    .position {
+      font-style: normal;
+    }
+
+    .subtitle {
+      font-size: $size-font-base-zh;
+    }
+
+    .content {
+      font-size: $size-font-base-zh;
+      width: $size-content-width-zh;
+
+      p {
+        font-size: $size-font-base-zh;
+      }
+    }
+  }
+}

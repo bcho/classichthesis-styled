@@ -1,0 +1,36 @@
+.two-cols {
+  display: flex;
+
+  .left-col,
+  .right-col {
+    display: inline-block;
+  }
+
+  .left-col {
+    flex: 1;
+    padding-right: 5rem;
+
+    .indent {
+      display: inline-block;
+      text-align: left;
+    }
+  }
+
+  .right-col {
+    flex: 5;
+  }
+
+  .indent {
+    display: inline-block;
+    margin: 0;
+    margin-left: 2rem;
+  }
+
+  .outdent {
+    margin-left: -5rem;
+  }
+
+  .align-right {
+    text-align: right;
+  }
+}

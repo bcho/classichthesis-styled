@@ -1,0 +1,72 @@
+.key-points {
+  display: block;
+  padding: 0;
+  list-style: none;
+
+  .point {
+    margin: 5px 0;
+
+    &.header {
+      margin-top: 20px;
+      margin-bottom: 7.5px;
+    }
+  }
+}
+  
+.description {
+  h1 {
+    font-size: $size-font-base;
+    font-weight: normal;
+    letter-spacing: .1rem;
+  }
+
+  .title {
+    margin: 0;
+    font-size: $size-font-base;
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .subtitle {
+    margin: 0;
+    font-size: $size-font-base;
+    font-weight: normal;
+  }
+
+  .content {
+    font-size: $size-font-base;
+    font-weight: normal;
+    width: $size-content-width;
+
+    em {
+      font-weight: normal;
+      font-size: $size-font-base * 1.1;
+      font-style: italic;
+    }
+
+    p {
+      margin: 0;
+      font-size: $size-font-base;
+      line-height: 1.5;
+    }
+  }
+
+  .period {
+    margin-right: 1.5rem;
+  }
+
+  .position {
+    font-style: italic;
+  }
+
+  .item {
+    display: inline-block;
+    width: 3rem;
+    text-align: left;
+  }
+
+  .sep {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
