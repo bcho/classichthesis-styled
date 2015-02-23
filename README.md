@@ -4,6 +4,8 @@ A simple resume template based on [Classichthese Sytled CV][origin].
 
 [origin]: http://www.latextemplates.com/template/classicthesis-styled-cv
 
+[>> Online Demo <<](http://bcho.github.io/classichthesis-styled/)
+
 
 ## Prerequisite
 
