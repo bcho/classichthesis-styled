@@ -1,0 +1,32 @@
+body.resume
+
+|- header.namecard
+   |- h1
+
+|- section.keypoint#profile
+   |- header.title
+   |- article.point
+      |- header.overview
+         |- h1
+      |- div.detail
+         |- aside.meta
+         |- section.content
+            |- ul.tabular
+               |- li.item
+                  |- span.name
+                  |- span.value
+
+|- section.keypoint#work-experience
+   |- header.title
+   |- article.point
+      |- header.overview
+         |- h1
+      |- div.detail
+         |- aside.meta
+         |- section.content
+   |- article.point
+      |- header.overview
+         |- h1
+      |- div.detail
+         |- aside.meta
+         |- section.content

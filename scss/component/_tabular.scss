@@ -1,0 +1,28 @@
+.sep {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.tabular {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: $size-content-width;
+
+  .item {
+    @include two-cols-container;
+
+    margin-bottom: .5rem;
+
+    .name {
+      @include two-cols-left;
+
+      font-style: italic;
+    }
+
+    .value {
+      @include two-cols-right(30);
+    }
+  }
+}

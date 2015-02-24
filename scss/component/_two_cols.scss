@@ -1,0 +1,17 @@
+@mixin two-cols-container {
+  display: flex;
+  display: -webkit-flex;
+}
+
+@mixin two-cols-left($width: $size-two-cols-left-width) {
+  display: inline-block;
+  flex: $width;
+  -webkit-flex: $width;
+  padding-right: 5rem;
+}
+
+@mixin two-cols-right($width: $size-two-cols-right-width) {
+  display: inline-block;
+  flex: $width;
+  -webkit-flex: $width;
+}

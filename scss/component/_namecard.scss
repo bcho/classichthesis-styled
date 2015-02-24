@@ -1,0 +1,30 @@
+.namecard {
+  @include two-cols-container;
+
+  &:before {
+    content: " ";
+    @include two-cols-left;
+  }
+
+  h1 {
+    @include two-cols-right;
+
+    font-weight: normal;
+  }
+
+  .family-name {
+    margin-left: .5rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .given-name {
+    margin-left: .5rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

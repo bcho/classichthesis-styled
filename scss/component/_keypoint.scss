@@ -1,0 +1,83 @@
+@mixin indent {
+  margin-left: 2rem;
+}
+
+.keypoint {
+  margin-bottom: 1rem;
+
+  .title {
+    @include two-cols-container;
+
+    &:before {
+      content: " ";
+      @include two-cols-left;
+    }
+
+    h1 {
+      @include two-cols-right;
+
+      font-size: $size-font-base * 1.2;
+      font-weight: normal;
+      letter-spacing: .1rem;
+    }
+  }
+}
+
+.point {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+
+  .overview {
+    @include two-cols-container;
+    @include indent;
+
+    margin-bottom: .65rem;
+
+    &:before {
+      content: " ";
+      @include two-cols-left;
+    }
+
+    h1 {
+      @include two-cols-right;
+
+      margin: 0;
+      font-size: $size-font-base;
+      font-weight: normal;
+
+      .datetime {
+        display: inline-block;
+        margin-right: 3rem;
+      }
+
+      .position {
+        display: inline-block;
+        font-style: italic;
+      }
+    }
+  }
+
+  .detail {
+    @include two-cols-container;
+
+    .meta {
+      @include two-cols-left;
+
+      text-align: right;
+      font-style: italic;
+      font-size: $size-font-base;
+    }
+
+    .content {
+      @include two-cols-right;
+      @include indent;
+
+      p {
+        margin: 0;
+        width: $size-content-width;
+        font-size: $size-font-base;
+        line-height: 1.5;
+      }
+    }
+  }
+}

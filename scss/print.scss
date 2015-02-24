@@ -1,9 +1,17 @@
 @import "vendor/normalize";
 
-@import "print_variables";
-@import "base/fonts";
-@import "base/links";
-@import "component/name_card";
-@import "component/key_points";
-@import "layout/two_cols";
+@import "base/variable";
+$size-content-width: 90%;
+$size-font-base: 14px;
+$size-font-base-zh: 14px;
+$size-two-cols-right-width: 4;
+
+@import "base/typo";
+
+@import "component/two_cols";
+@import "component/namecard";
+@import "component/keypoint";
+@import "component/tabular";
+
+@import "page/en";
 @import "page/zh";

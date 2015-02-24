@@ -1,9 +1,12 @@
 @import "vendor/normalize";
 
-@import "variables";
-@import "base/fonts";
-@import "base/links";
-@import "component/name_card";
-@import "component/key_points";
-@import "layout/two_cols";
+@import "base/variable";
+@import "base/typo";
+
+@import "component/two_cols";
+@import "component/namecard";
+@import "component/keypoint";
+@import "component/tabular";
+
+@import "page/en";
 @import "page/zh";
