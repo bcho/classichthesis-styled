@@ -416,18 +416,21 @@ a {
   margin-right: 1.5rem; }
 
 .two-cols {
-  display: flex; }
+  display: flex;
+  display: -webkit-flex; }
   .two-cols .left-col,
   .two-cols .right-col {
     display: inline-block; }
   .two-cols .left-col {
     flex: 1;
+    -webkit-flex: 1;
     padding-right: 5rem; }
     .two-cols .left-col .indent {
       display: inline-block;
       text-align: left; }
   .two-cols .right-col {
-    flex: 5; }
+    flex: 5;
+    -webkit-flex: 5; }
   .two-cols .indent {
     display: inline-block;
     margin: 0;

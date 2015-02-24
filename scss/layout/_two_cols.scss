@@ -1,5 +1,6 @@
 .two-cols {
   display: flex;
+  display: -webkit-flex;
 
   .left-col,
   .right-col {
@@ -8,6 +9,7 @@
 
   .left-col {
     flex: 1;
+    -webkit-flex: 1;
     padding-right: 5rem;
 
     .indent {
@@ -18,6 +20,7 @@
 
   .right-col {
     flex: 5;
+    -webkit-flex: 5;
   }
 
   .indent {
